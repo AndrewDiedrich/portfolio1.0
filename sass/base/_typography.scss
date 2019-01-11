@@ -36,6 +36,10 @@ body {
         animation-duration: 3s;
         padding-bottom: 3rem;
     }
+    &--icons {
+        font-size: 4rem;
+        width: auto;
+    }
 }
 
 .heading-secondary {
@@ -43,7 +47,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    background-image: linear-gradient(to right, $color-moon-light, $color-moon, $color-moon-dark);
     //clip to text just color text
     -webkit-background-clip: text;
     color: transparent;
