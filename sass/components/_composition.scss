@@ -1,7 +1,7 @@
 .composition {
     position: relative;
     &__photo {
-        width: 55%;
+        width: 50%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         border-radius: 2px;
         position: absolute;
@@ -13,12 +13,14 @@
             top: -2rem;
         }
         &--p2 {
-            right: 0;
+            right: 5%;
             top: 2rem;
+            width: 40%;
         }
         &--p3 {
             left: 20%;
             top: 10rem;
+            width: 40%;
         }
         &:hover {
             outline: 1rem solid $color-moon;

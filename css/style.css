@@ -205,7 +205,7 @@ btn:visited turns color if press before*/
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 50%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -216,11 +216,13 @@ btn:visited turns color if press before*/
       left: 0;
       top: -2rem; }
     .composition__photo--p2 {
-      right: 0;
-      top: 2rem; }
+      right: 5%;
+      top: 2rem;
+      width: 40%; }
     .composition__photo--p3 {
       left: 20%;
-      top: 10rem; }
+      top: 10rem;
+      width: 40%; }
     .composition__photo:hover {
       outline: 1rem solid #203A43;
       transform: scale(1.1) translateY(-0.8rem);
@@ -309,7 +311,7 @@ btn:visited turns color if press before*/
     padding: 3rem; }
     .card__details ul {
       list-style: none;
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       .card__details ul li {
         text-align: center;
@@ -317,6 +319,9 @@ btn:visited turns color if press before*/
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+        .card__details ul li.coming-soon {
+          font-size: 2rem;
+          color: red; }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -447,11 +452,11 @@ btn:visited turns color if press before*/
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 15rem 0;
   margin-top: -20vh; }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 5rem 0;
   background-image: linear-gradient(to right bottom, rgba(44, 83, 100, 0.8), rgba(32, 58, 67, 0.8), rgba(15, 32, 39, 0.8)), url(../img/planetlights.jpg);
   background-size: cover;
   transform: skewY(-7deg);
@@ -461,7 +466,7 @@ btn:visited turns color if press before*/
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 5rem 0 5rem 0;
   margin-top: -10rem; }
 
 .section-stories {

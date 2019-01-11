@@ -77,7 +77,7 @@
         padding: 3rem;
         ul {
             list-style: none;
-            width: 80%;
+            width: 90%;
             margin: 0 auto;
             li {
                 text-align: center;
@@ -85,6 +85,10 @@
                 padding: 1rem;
                 &:not(:last-child) {
                     border-bottom: 1px solid $color-grey-dark-2;
+                }
+                &.coming-soon {
+                    font-size: 2rem;
+                    color: red;
                 }
             }
         }
